@@ -1,10 +1,101 @@
 <html>
     <head>
-        <title>Selctors</title>
+        <title>selectors</title>
+        <script src="js/jquery_1_4_2_head.js"></script>
+        <script src="js/select.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/select.css">
     </head>
     <body>
-        <div>
-            <p>will working on selectors</p>
+        <div>Manage Permission</div>
+        <div class="selecter">
+                <div class="Property">
+                    <div>
+                        <input class="parentcheck" type="checkbox" name="selection">
+                        <label class="property">Property</label>
+                    </div>
+                    <ul style="list-style-type:none;">
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="edit_property">Edit Property</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="remove_property">Remove Property</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="add_property">Add Property</label>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="Testimonial">
+                    <div>
+                        <input class="parentcheck" type="checkbox" name="selection">
+                        <label class="testimonial">Testimonial</label>
+                    </div>
+                    <ul style="list-style-type:none;">
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="add_test">Add</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="remove_test">Remove</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="view_test">View</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="edit_test">Edit</label>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="Users">
+                    <div>
+                        <input class="parentcheck" type="checkbox" name="selection">
+                        <label class="users">Users</label>
+                    </div>
+                    <ul style="list-style-type:none;">
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="edit_users">Edit User</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="view_users">View User List</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="add_user">Add_User</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Membership">
+                    <div>
+                        <input class="parentcheck" type="checkbox" name="selection">
+                        <label class="membership">Membership</label>
+                    </div>
+                    <ul style="list-style-type:none;">
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="edit_mem">Edit Membership</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="remove_mem">Remove Membership</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="selection">
+                            <label class="add_mem">Add Membership</label>
+                        </li>
+                    </ul>
+                </div>
         </div>
+        <button type="submit" class="btn" id="submitbtn" name="submitbtn">Submit</button>
     </body>
 </html>
